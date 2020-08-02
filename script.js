@@ -39,3 +39,8 @@ TotalPrice += PizzatotalPrice[i];
 }
 return TotalPrice;
 }
+$(document).ready(function() { 
+$(".header").height($(window).height());
+$("#orders").click(function(){
+$("#order").show(1000)
+});

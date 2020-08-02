@@ -55,3 +55,32 @@ var pizzaDetails = (pizzaNumbers + ", " + pizzaSize + ", " + crust + ", " + Topp
 var newPizzaOrder = new Order(pizzaSize, crust);
 newPizzaOrder.pizzaCost();
 PizzatotalPrice.push(newPizzaOrder.pizzaPrice);
+$("#pizzaDetails").show();
+   $("#totalPizzaCost").text(newPizzaOrder.finalCost());
+   $("#pizzaDetail").append("<p>" + pizzaDetails + "</p>");
+   $("#size, #crust, #Topping1, #Topping2, #pizza-number").val("");
+ });
+ $("#pizzaDetails").click(function() {
+   $("#pizzaDetail").toggle();
+   $("#deliver").toggle();
+   $("#pickup").toggle();
+   $("#checkout").hide();
+ });
+$("button#deliver").click(function(event){
+event.preventDefault();
+alert("Delivery cost is" + " " + del);
+var location = prompt("Enter your address:");
+alert("We will deliver your order at" + " " + location);
+$("#checkout").show();
+})
+$("button#pickup").click(function(event){
+event.preventDefault();
+alert("Thank you for shopping with Pizza-Inn Palace!!!");
+$("#checkout").show();
+})
+$("button#checkout").click(function(event){
+event.preventDefault();
+var check = TotalPrice + del;
+$("#check").text(check);
+});
+})

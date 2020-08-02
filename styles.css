@@ -4,3 +4,8 @@
     font-family: 'Merriweather', serif;
     padding: 20px;
 }
+body{
+    color: black;
+    font-family: 'Merriweather', serif;
+    overflow-x: hidden;
+}

@@ -44,3 +44,14 @@ $(".header").height($(window).height());
 $("#orders").click(function(){
 $("#order").show(1000)
 });
+$("form#pizzaOrder").submit(function(event) {
+    event.preventDefault();
+var pizzaSize = $("select#size").val();
+var crust = $("select#crust").val();
+var Topping1 = $("select#Topping1").val();
+var Topping2 = $("select#Topping2").val();
+var pizzaNumbers = $("input#pizza-number").val();
+var pizzaDetails = (pizzaNumbers + ", " + pizzaSize + ", " + crust + ", " + Topping1 + ", " + Topping2);
+var newPizzaOrder = new Order(pizzaSize, crust);
+newPizzaOrder.pizzaCost();
+PizzatotalPrice.push(newPizzaOrder.pizzaPrice);

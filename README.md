@@ -1,20 +1,20 @@
-## Name
+# Name
 PIZZA-INN PALACE
 
 # Author
 Irene Kasiva
 
-### Description
+# Description
 This website is designed to help deliver pizza to a client's residence
 fastly. Delivering cost is more cheaper and affordable to everyone.
 
-### Technologies Used
+## Technologies Used
 HTML 
 CSS
 BOOTSTRAP
 JAVASCRIPT
 
-### Setup Installation
+## Setup Installation
 After my repository's name, Select Clone/download. In the Clone with HTTPs , select the repository to copy it in the Terminal. Open the terminal. Select Where you want to clone the project. Type git clone then paste the HTTPs link you copied. Click Enter. And your clone will be created.
 
 

@@ -8,6 +8,7 @@ body{
     color: black;
     font-family: 'Merriweather', serif;
     overflow-x: hidden;
+    background-color: #5bc0de;
 }
 h1{
     text-align: center;
@@ -48,4 +49,36 @@ footer {
 .text{
       color: black;
       text-align: center;
+}
+
+#pizzaDetails{
+    display: none;
+    cursor: pointer;
+    text-decoration:underline;
+    color:blue;
+    font-size:20px;
+}
+#pizzaDetail{
+    display: none;
+}
+#deliver{
+    display: none;
+}
+#pickup{
+    display: none;
+}
+#checkout{
+    display: none;
+}
+#Cost{
+    text-align: center;
+    margin-top: 5%;
+}
+.order{
+    display: block;
+    background-color: #5bc0de;
+    width: 100%;
+}
+.container{
+    background-color: #5bc0de;
 }

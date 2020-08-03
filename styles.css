@@ -1,10 +1,10 @@
 .pizza{
     background-color:#5bc0de;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("https://thumbs.dreamstime.com/z/royal-nine-tiered-umbrella-thailand-tiered-umbrella-blue-background-highest-point-temple-royal-nine-tiered-139883204.jpg") center/ cover no-repeat fixed;
+    url("https://thumbs.dreamstime.com/b/classical-napoli-pizza-salami-gherkins-pizza-salami-gherkins-delicious-meal-lots-vegetables-tasty-119280193.jpg") center/ cover no-repeat fixed;
     height: 80vh;
     background-repeat: no-repeat;
-    color: black;
+    color: white;
     font-family: 'Merriweather', serif;
     padding: 20px;
 }
